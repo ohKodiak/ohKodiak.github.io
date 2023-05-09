@@ -28,7 +28,7 @@ html, body {
 
 .App-header {
   background-color: #473729; /* set the header background color to a darker brown */
-  height: 150px;
+  height: 110px;
   padding: 20px;
   color: white;
   animation-name: header-fade-in; /* add an animation to fade in the header */
@@ -52,7 +52,7 @@ html, body {
 }
 
 .App-intro {
-  font-size: 20px;
+  font-size: 25px;
   font-family: Garamond, Rockwell;
   margin-top: 30px;
   animation-name: intro-slide-up; /* add an animation to slide up the intro text */
@@ -73,19 +73,19 @@ html, body {
 
 h2 {
   font-family: Garamond, Rockwell;
-  font-size: 28px;
+  font-size: 32px;
   margin-top: 40px;
 }
 
 h3 {
   font-family: Garamond, Rockwell;
-  font-size: 22px;
+  font-size: 26px;
   margin-top: 30px;
 }
 
 p {
   font-family: Garamond, Rockwell;
-  font-size: 16px;
+  font-size: 19px;
   margin-top: 20px;
   line-height: 1.5;
   animation-name: text-fade-in; /* add an animation to fade in the text */
@@ -122,7 +122,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.App-image.animated.fadeIn {
+.App-image-animated-fadeIn {
   animation-duration: 1s;
   animation-name: fadeIn;
 }

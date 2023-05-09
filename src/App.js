@@ -12,13 +12,13 @@ class App extends Component {
           my name is ezra, and i am a computer engineer.
         </p>
         <div className="App-images">
-          <img className="App-image animated fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
+          <img className="App-image-animated-fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
         </div>
         <div></div>
         <div className="App-text">
         <p>
           i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
-          i like making things that people value. 
+          i enjoy making things. 
         </p>
         
         
@@ -26,7 +26,7 @@ class App extends Component {
         <ul>
           <li>email: [ezra@tamu.edu]</li>
           <li>linkedin: [my name]</li>
-          <li>github: [github/ohKodiak]</li>
+          <li>github: [https://github.com/ohKodiak]</li>
         </ul>
         </div>
 
