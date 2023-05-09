@@ -1,14 +1,29 @@
-.App {
-  text-align: center;
-  margin-top: 50px;
-  background-color: #D29F7C; /* set the background color to a light brown */
+html, body {
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
+.App {
+  text-align: center;
+  /*margin-top: 50px;*/
+  background-color: #D29F7C; /* set the background color to a light brown */
+  min-height: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+}
+
+
 .App-images {
-  display: block; /* sets the image to display as a block element */
+  /*display: block;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  width: 300px; /* sets the width of the image to 300 pixels */
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  padding-top: 200px;
 }
 
 .App-header {
@@ -32,11 +47,13 @@
 
 .App-title {
   font-size: 36px;
+  font-family: Garamond, Rockwell;
   margin-bottom: 0; /* remove margin bottom to align with intro text */
 }
 
 .App-intro {
   font-size: 20px;
+  font-family: Garamond, Rockwell;
   margin-top: 30px;
   animation-name: intro-slide-up; /* add an animation to slide up the intro text */
   animation-duration: 1s;
@@ -55,16 +72,19 @@
 }
 
 h2 {
+  font-family: Garamond, Rockwell;
   font-size: 28px;
   margin-top: 40px;
 }
 
 h3 {
+  font-family: Garamond, Rockwell;
   font-size: 22px;
   margin-top: 30px;
 }
 
 p {
+  font-family: Garamond, Rockwell;
   font-size: 16px;
   margin-top: 20px;
   line-height: 1.5;
@@ -100,6 +120,27 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.App-image.animated.fadeIn {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App-text {
+  text-align: center;
+  margin-top: 200px;
+  padding-bottom: 100px;
 }
 
 
