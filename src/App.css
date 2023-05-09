@@ -4,6 +4,11 @@
   background-color: #D29F7C; /* set the background color to a light brown */
 }
 
+.App-images {
+  width: 300px; /* sets the width of the image to 300 pixels */
+  height: 200px;
+}
+
 .App-header {
   background-color: #473729; /* set the header background color to a darker brown */
   height: 150px;

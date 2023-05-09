@@ -9,10 +9,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to My Personal Website</h1>
         </header>
         <p className="App-intro">
-          My name is [Your Name], and I am a [Your Profession/Title].
+          My name is Ezra, and I am a Computer Engineer.
         </p>
         <div className="App-images">
-          <img className="App-image animated fadeIn" src="https://wallpapercave.com/wp/wp7955438.png" alt="placeholder image" />
+          <img className="App-image animated fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
         </div>
         <p>
           I have experience in [List Your Skills or Projects]. I am passionate about [Your Interests or Hobbies].
