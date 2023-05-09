@@ -5,6 +5,8 @@
 }
 
 .App-images {
+  display: block; /* sets the image to display as a block element */
+  margin: 0 auto;
   width: 300px; /* sets the width of the image to 300 pixels */
   height: 200px;
 }
