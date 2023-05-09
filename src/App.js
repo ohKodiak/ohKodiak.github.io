@@ -6,10 +6,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to My Personal Website</h1>
+          <h1 className="App-title">howdy, glad to have you here</h1>
         </header>
         <p className="App-intro">
-          My name is Ezra, and I am a Computer Engineer.
+          my name is ezra, and I am a computer engineer.
         </p>
         <div className="App-images">
           <img className="App-image animated fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
