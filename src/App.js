@@ -14,6 +14,7 @@ class App extends Component {
         <div className="App-images">
           <img className="App-image animated fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
         </div>
+        <div>
         <p>
           i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
           i like making things that people value. 
@@ -26,6 +27,7 @@ class App extends Component {
           <li>linkedin: [my name]</li>
           <li>github: [github/ohKodiak]</li>
         </ul>
+        </div>
       </div>
     );
   }
@@ -57,3 +59,6 @@ export default App;
           <li>LinkedIn: [Link to Your LinkedIn Profile]</li>
           <li>GitHub: [Link to Your GitHub Profile]</li>
         </ul> */
+
+
+        //not sure about npm start but you do need npm run deploy to get updates
