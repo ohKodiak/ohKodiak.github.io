@@ -16,26 +16,26 @@ html, body {
 
 
 .App-images {
-  /*display: block;*/
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 100px;
   height: 100px;
   padding-top: 200px;
 }
-@media (min-width: 768px) {
+
+.App-images img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 800px) {
   .App-images {
-    max-width: 50%;
+    width: 100%;
   }
 }
 
-@media (min-width: 1200px) {
-  .App-images {
-    max-width: 30%;
-  }
-}
+
 
 .App-header {
   background-color: #473729; /* set the header background color to a darker brown */
@@ -49,6 +49,7 @@ html, body {
   animation-fill-mode: forwards;
 }
 
+
 @keyframes header-fade-in {
   from {
     opacity: 0;
@@ -57,12 +58,32 @@ html, body {
     opacity: 1;
   }
 }
+@media only screen and (max-width: 800px) {
+  .App-header {
+    background-color: #473729; /* set the header background color to a darker brown */
+    height: 155px;
+    padding: 0px;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    color: white;
+    animation-name: header-fade-in; /* add an animation to fade in the header */
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  }
 
 .App-title {
   font-size: 55px;
   font-family: Garamond, Rockwell;
   margin-bottom: 0; /* remove margin bottom to align with intro text */
 }
+@media only screen and (max-width: 800px) {
+  .App-title {
+  font-size: 40px;
+  font-family: Garamond, Rockwell;
+  margin-bottom: 0;
+  }
+  }
 
 .App-intro {
   overflow: hidden; 
@@ -98,9 +119,56 @@ html, body {
 
 @media only screen and (max-width: 800px) {
   .App-intro {
-    white-space: normal; /* Allows content to wrap to the next line */
+    overflow: hidden; 
+    font-size: 40px;
+    width: 80%;
+    font-family: Garamond, Rockwell;
+    text-align: center;
+    margin: auto;
+    font-family: Garamond, Rockwell;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .001em; /* Adjust as needed */
+    animation:
+    header-fade-in 4s forwards,
+    typing-1 4s steps(40, end) 1s infinite,
+    typing-2 4s steps(40, end) 4s infinite,
+    typing-3 4s steps(40, end) 7s infinite,
+    stop-cursor 0s 9s forwards,
+    blink-caret .75s step-end infinite;
   }
-}
+  }
+
+  @media only screen and (max-width: 380px) {
+    .App-intro {
+      overflow: hidden; 
+      font-size: 40px;
+      width: 80%;
+      font-family: Garamond, Rockwell;
+      text-align: center;
+      margin: auto;
+      font-family: Garamond, Rockwell;
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 1.5;
+      /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid black; /* The typewriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      letter-spacing: .0001em; /* Adjust as needed */
+      animation:
+      header-fade-in 4s forwards,
+      typing-1 4s steps(40, end) 1s infinite,
+      typing-2 4s steps(40, end) 4s infinite,
+      typing-3 4s steps(40, end) 7s infinite,
+      stop-cursor 0s 9s forwards,
+      blink-caret .75s step-end infinite;
+    }
+    }
+
 /* Animation for the first sentence */
 @keyframes typing-1 {
 0% { width: 0 }
@@ -205,6 +273,23 @@ p {
   animation-fill-mode: forwards;
 }
 
+
+
+@media only screen and (max-width: 800px) {
+  p {
+  
+  font-size: 20px;
+  margin-top: -20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  p {
+  
+  font-size: 20px;
+  margin-top: -80px;
+  }
+}
+
 @keyframes text-fade-in {
   from {
     opacity: 0;
@@ -262,5 +347,12 @@ a:hover {
   top: 35px;
 }
 
+@media only screen and (max-width: 500px) {
+  .spotify-container {
+  
+    position: relative;
+    top: 70px;
+  }
+}
 
 
