@@ -39,9 +39,9 @@ html, body {
 
 .App-header {
   background-color: #473729; /* set the header background color to a darker brown */
-  height: 110px;
-  padding: 20px;
-  white-space: nowrap;
+  height: 180px;
+  padding: 0px;
+  /*white-space: nowrap;*/
   overflow: hidden;
   color: white;
   animation-name: header-fade-in; /* add an animation to fade in the header */
@@ -96,7 +96,11 @@ html, body {
   }
 }
 
-
+@media only screen and (max-width: 800px) {
+  .App-intro {
+    white-space: normal; /* Allows content to wrap to the next line */
+  }
+}
 /* Animation for the first sentence */
 @keyframes typing-1 {
 0% { width: 0 }
@@ -257,4 +261,6 @@ a:hover {
   position: relative;
   top: 35px;
 }
+
+
 

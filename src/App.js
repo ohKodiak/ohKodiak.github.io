@@ -23,6 +23,7 @@ class App extends Component {
   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   allowFullScreen
   loading="lazy"
+  controls
 ></iframe>
         </div>
         <div className="App-images">
