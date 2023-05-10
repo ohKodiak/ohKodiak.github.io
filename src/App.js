@@ -11,6 +11,20 @@ class App extends Component {
         <p className="App-intro">
           my name is ezra, and i am a computer engineer.
         </p>
+        <div className="spotify-container">
+        <iframe
+  title="spotify-embed"
+  src="https://open.spotify.com/embed/track/47kqm43MxG45HEdGVudXxK?utm_source=generator"
+  width="300"
+  height="100"
+  className="spotify-embed"
+  frameBorder="0"
+  style={{ borderRadius: '12px' }}
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  allowFullScreen
+  loading="lazy"
+></iframe>
+        </div>
         <div className="App-images">
           <img className="App-image-animated-fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
         </div>
@@ -20,7 +34,7 @@ class App extends Component {
           i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
           i enjoy making things. 
         </p>
-        
+         
         
         <h2>more of me</h2>
         <ul>
