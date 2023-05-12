@@ -143,7 +143,7 @@ html, body {
   }
   }
 
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 390px) {
     .App-intro {
       overflow: hidden; 
       font-size: 40px;
@@ -152,7 +152,7 @@ html, body {
       text-align: center;
       margin: auto;
       font-family: Garamond, Rockwell;
-      font-size: 18px;
+      font-size: 15px;
       margin-top: 20px;
       line-height: 1.5;
       /* Ensures the content is not revealed until the animation */
@@ -354,5 +354,7 @@ a:hover {
     top: 70px;
   }
 }
+
+
 
 

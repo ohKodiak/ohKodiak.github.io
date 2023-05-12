@@ -33,7 +33,7 @@ class App extends Component {
         <div className="App-text">
         <p>
           i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
-          i enjoy making things. 
+          i like making things. 
         </p>
          
         
