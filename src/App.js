@@ -16,12 +16,12 @@ class App extends Component {
     width="300"
     height="300"
     src="https://www.youtube.com/embed/videoseries?list=PLVapI1W4F3iihYLiv-_wGKMP68-I-4LbY"
-    title="YouTube video player"
+    title="youre welcome"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
   ></iframe>
 <div className = "above-image">
-<p> this website looks alot better on a computer because the typing animation can fit on one line without being shrunk so much. i could use another animation to look better for phone users, but i am choosing not to. i also used a spotify embedded button at first but for some reason most browsers took issue with it so youtube embed instead. anyways, enjoy the rest of my website.</p>
+<p> "happy am i because this has happened to me? not so, happy am i though this has happened to me"</p>
 
 </div>
 
@@ -33,7 +33,7 @@ class App extends Component {
         <div className="App-text">
         <p>
           i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
-          i like making things. 
+          i like my silly little website. 
         </p>
          
         
@@ -42,9 +42,12 @@ class App extends Component {
           <li>email: [ezra@tamu.edu]</li>
           <li>linkedin: [my name]</li>
           <li>github: [https://github.com/ohKodiak]</li>
+          
         </ul>
         </div>
-
+        <div>
+          <p>website version 1.1, i apologize to phone users for the small animation font</p>
+        </div>
       </div>
       
     );
@@ -52,6 +55,8 @@ class App extends Component {
 }
 
 export default App;
+
+
 
 
 
