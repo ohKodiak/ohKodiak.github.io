@@ -11,21 +11,21 @@ class App extends Component {
         <p className="App-intro">
           my name is ezra, and i am a computer engineer.
         </p>
-        <div className="spotify-container">
-        <iframe
-  title="spotify-embed"
-  src="https://open.spotify.com/embed/track/47kqm43MxG45HEdGVudXxK?utm_source=generator"
-  width="300"
-  height="100"
-  className="spotify-embed"
-  frameBorder="0"
-  style={{ borderRadius: '12px' }}
-  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-  allowFullScreen
-  loading="lazy"
-  controls
-></iframe>
-        </div>
+<div className = "spotify-container">
+  <iframe
+    width="300"
+    height="300"
+    src="https://www.youtube.com/embed/videoseries?list=PLVapI1W4F3iihYLiv-_wGKMP68-I-4LbY"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+<div className = "above-image">
+<p> this website looks alot better on a computer because the typing animation can fit on one line without being shrunk so much. i could use another animation to look better for phone users, but i am choosing not to. i also used a spotify embedded button at first but for some reason most browsers took issue with it so youtube embed instead. anyways, enjoy the rest of my website.</p>
+
+</div>
+
+</div>
         <div className="App-images">
           <img className="App-image-animated-fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
         </div>
@@ -52,6 +52,7 @@ class App extends Component {
 }
 
 export default App;
+
 
 
 
