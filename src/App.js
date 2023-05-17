@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -11,51 +11,63 @@ class App extends Component {
         <p className="App-intro">
           my name is ezra, and i am a computer engineer.
         </p>
-<div className = "spotify-container">
-  <iframe
-    width="300"
-    height="300"
-    src="https://www.youtube.com/embed/videoseries?list=PLVapI1W4F3iihYLiv-_wGKMP68-I-4LbY"
-    title="youre welcome"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-<div className = "above-image">
-<p> "happy am i because this has happened to me? not so, happy am i though this has happened to me"</p>
-
-</div>
-
-</div>
+        <div className="spotify-container">
+          <iframe
+            width="300"
+            height="300"
+            src="https://www.youtube.com/embed/videoseries?list=PLVapI1W4F3iihYLiv-_wGKMP68-I-4LbY"
+            title="youre welcome"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <div className="above-image">
+            <p>
+              {" "}
+              "happy am i because this has happened to me? not so, happy am i
+              though this has happened to me"
+            </p>
+          </div>
+        </div>
         <div className="App-images">
-          <img className="App-image-animated-fadeIn" src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg" alt="placeholder image" />
+          <img
+            className="App-image-animated-fadeIn"
+            src="https://www.australiangeographic.com.au/wp-content/uploads/2018/06/kodiak-bear-768x452.jpg"
+            alt="placeholder image"
+          />
         </div>
         <div></div>
         <div className="App-text">
-        <p>
-          i like to code. i like animals. i like texas a&m. i like the aggie coding club and the texas a&m cyber security club, both of which i am fortunate enough to serve as an officer for. 
-          i like my silly little website. 
-        </p>
-         
-        
-        <h2>more of me</h2>
-        <ul>
-          <li>email: [ezra@tamu.edu]</li>
-          <li>linkedin: [my name]</li>
-          <li>github: [https://github.com/ohKodiak]</li>
-          
-        </ul>
+          <p>
+            i like to code. i like animals. i like texas a&m. i like the aggie
+            coding club and the texas a&m cyber security club, both of which i
+            am fortunate enough to serve as an officer for. i like my silly
+            little website.
+          </p>
+
+          <h2>more of me</h2>
+          <ul>
+            <li>email: [ezra@tamu.edu]</li>
+            <li>resume: <a href="https://docs.google.com/document/d/1sGSlxGX9mVve7tX1sesGkt9JjJSwxh2bu6Uw1CoMcOw/edit?usp=sharing" class="black-link" >click</a></li>
+            <li>linkedin: <a href="https://www.linkedin.com/in/ezrajeter/" class="black-link" >here</a></li>
+            <li>github: <a href="https://github.com/ohKodiak" class="black-link" >https://github.com/ohKodiak</a></li>
+          </ul>
         </div>
-        <div>
-          <p>website version 1.1, i apologize to phone users for the small animation font</p>
+        <div className="bottom-text">
+          <p className="bottom-text">
+            website version 1.2, i apologize to phone users for the small
+            animation font
+          </p>
         </div>
       </div>
-      
     );
   }
 }
 
 export default App;
 
+//npm start
+//npm run deploy 
+//after pushing to github
 
 
 
