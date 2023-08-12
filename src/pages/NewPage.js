@@ -13,7 +13,7 @@ function EvenMore() {
   const handleSubmit = (event) => {
     event.preventDefault();
   
-    const skillsRegex = /^(?!.*\b(not|don't|do not|no)\b)(?=.*\b(skills|expertise|programming)\b)/i;
+    const skillsRegex = /^(?!.*\b(not|don't|do not|no)\b)(?=.*\b(skills|skill|expertise|programming)\b)/i;
     const experienceRegex = /^(?!.*\b(not|don't|do not|no)\b)(?=.*\b(job|jobs|experience|work|internship)\b)/i;
     const projectsRegex = /^(?!.*\b(not|don't|do not|no)\b)(?=.*\b(projects|project)\b)/i;
   
